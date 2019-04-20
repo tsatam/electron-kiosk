@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "build": "electron-packager . kiosk --out build/",
-    "build:pi": "electron-packager . kiosk --platform=linux --arch=arm64 --out build/"
+    "build:pi": "electron-packager . kiosk --platform=linux --arch=armv7l --out build/"
   },
   "author": "",
   "license": "ISC",
