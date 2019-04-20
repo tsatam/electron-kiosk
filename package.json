@@ -1,0 +1,17 @@
+{
+  "name": "electron-kiosk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . kiosk --out build/",
+    "build:pi": "electron-packager . kiosk --platform=linux --arch=arm64 --out build/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.1.4",
+    "electron-packager": "^13.1.1"
+  }
+}
